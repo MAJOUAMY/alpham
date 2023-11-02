@@ -38,7 +38,7 @@ header {
   font-size: 21px;
   border-radius: 7px;
 }
-.active{
-  background-color: transparent;
-  border-bottom: 2px solid red;
+.active {
+  color: #007bff;
+  
 }

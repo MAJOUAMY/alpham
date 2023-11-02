@@ -1,11 +1,12 @@
 import "./navbar.css";
-import {NavLink} from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <header>
-      <a href="" className="logo">
-        ALPHA <span>M</span> 
-      </a>
+      <Link to="/" className="logo">
+        ALPHA <span>M</span>{" "}
+      </Link>
+
       <ul className="nav-menu">
         <li className="nav-item">
           <NavLink to="services">Servises</NavLink>
@@ -19,9 +20,7 @@ function Navbar() {
       </ul>
 
       <button className="signup-btn">
-        <NavLink to="signup">
-            Sign Up
-        </NavLink>
+        <Link to="signup">Sign Up</Link>
       </button>
     </header>
   );

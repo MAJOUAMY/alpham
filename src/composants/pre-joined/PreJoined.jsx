@@ -14,7 +14,7 @@ function PreJoined() {
       <div className="top-layer">
         <Navbar />
         <Routes>
-          <Route index element={<Home />} />
+          <Route index  element={<Home />} />
           <Route path="services" element= {<Services/>}/>
           <Route path="about" element= {<AboutUs/>}/>
           <Route path="contact" element= {<Contact/>}/>

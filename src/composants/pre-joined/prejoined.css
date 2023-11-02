@@ -1,0 +1,19 @@
+.container{
+    position: relative;
+
+}
+.top-layer{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+  
+}
+.bottom-layer{
+    position: absolute;
+    z-index: 0;
+    /* opacity: .5; */
+}
